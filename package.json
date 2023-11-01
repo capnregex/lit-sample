@@ -1,0 +1,21 @@
+{
+  "name": "my-lit-sample",
+  "version": "1.0.0",
+  "description": "Sample Lit ",
+  "main": "my-element.js",
+  "scripts": {
+    "build": "node build.mjs",
+    "watch": "node watch.mjs",
+    "serve": "node serve.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Robert W. Ferney",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.19.5",
+    "esbuild-sass-plugin": "^2.16.0"
+  },
+  "dependencies": {
+    "lit": "^3.0.1"
+  }
+}
